@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency-Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="converter">
+            <div class="row">
+                <input type="number" id="amount" placeholder="enter amount">
+                <select name="from_currency" id="from_currency"></select>
+                <select name="to_currency" id="to_currency"></select>
+            </div>
+            <div class="row">
+                <button id="Convert">Convert</button>
+            </div>
+            <div class="row">
+                <input type="text" id="result" placeholder="result" readonly>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="services/services_logic.js"></script>
+    <script type="module" src="controller/controller_logic.js" ></script>
+</body>
+</html>

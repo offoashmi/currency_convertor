@@ -1,0 +1,34 @@
+body{
+    background-color: cadetblue;
+    align-items: center;
+}
+.container{
+    text-align: center;   
+}
+.converter{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 50px;
+}
+#result{
+    height: 50px;
+    width: 120px;
+    text-align: center;
+}
+.row button{
+    cursor: pointer;
+    width: 80px;
+}
+#amount{
+    width: 120px;
+}
+select{
+    width: 100px;
+}
